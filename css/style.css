@@ -140,12 +140,7 @@ nav a:hover{
 
     background-repeat:no-repeat;
 
-    display:flex;
-
-    justify-content:center;
-
-    align-items:flex-end;
-
+  
 }
 
 .hero::before{
@@ -157,18 +152,14 @@ nav a:hover{
     inset:0;
 
     background:rgba(0,0,0,.30);
-
 }
 
 .hero-overlay{
 
-    position:relative;
-
-    z-index:10;
-
     width:800px;
-
     max-width:90%;
+
+    margin:-100px auto 80px;
 
     background:rgba(0,0,0,.55);
 
@@ -176,12 +167,13 @@ nav a:hover{
 
     text-align:center;
 
-    color:#ffffff;
+    color:#fff;
 
     padding:55px;
 
-    margin-bottom:80px;
+    position:relative;
 
+    z-index:100;
 }
 
 .hero h1{
