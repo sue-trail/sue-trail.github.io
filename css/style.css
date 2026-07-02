@@ -35,26 +35,27 @@ header{
     z-index:999;
 }
 
+/* ===== ロゴ ===== */
+
 .logo{
     display:flex;
     align-items:center;
-    gap:18px;
+    gap:15px;
 }
 
-.logo img{
+.logo-img{
     width:70px;
     height:70px;
-    border-radius:50%;
-    background:white;
-    padding:5px;
+    object-fit:contain;
 }
 
 .logo h1{
-    font-size:28px;
+    margin:0;
 }
 
 .logo p{
-    font-size:13px;
+    margin:0;
+    font-size:14px;
     letter-spacing:2px;
 }
 
