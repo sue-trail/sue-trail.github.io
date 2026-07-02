@@ -151,7 +151,7 @@ nav a:hover{
 
     inset:0;
 
-    background:rgba(0,0,0,.30);
+    background:transparent;
 }
 
 .hero-overlay{
