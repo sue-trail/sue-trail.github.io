@@ -172,8 +172,6 @@ h2{
     color:#fff;
 }
 
-}
-
 .hero-overlay{
 
     animation:fadeUp 1.2s ease;
@@ -479,35 +477,39 @@ h2{
 
 .about-section{
 
-    padding:0;
+    position:relative;
 
-}
-
-.about-image{
-
-    height:420px;
+    padding:100px 0;
 
     background:
-    linear-gradient(rgba(0,0,0,.25),
-    rgba(0,0,0,.25)),
-    url("../images/about.jpg")
-    center center/cover;
+    linear-gradient(
+        rgba(255,255,255,.60),
+        rgba(255,255,255,.60)
+    ),
+    url("../images/town.jpg")
+    center center / cover no-repeat;
+
+    background-attachment:fixed;
 
 }
 
 .about-content{
 
-    max-width:900px;
+    max-width:1000px;
 
     margin:auto;
 
-    padding:90px 20px;
+    padding:0 20px;
 
 }
 
 .about-content h2{
 
     margin-bottom:20px;
+
+    font-size:3rem;
+
+    color:#111;
 
 }
 
@@ -550,7 +552,9 @@ h2{
 
 .point-card{
 
-    background:#fff;
+    background:rgba(255,255,255,.92);
+
+    backdrop-filter:blur(8px);
 
     border-radius:18px;
 
@@ -558,11 +562,11 @@ h2{
 
     text-align:center;
 
-    box-shadow:0 8px 25px rgba(0,0,0,.08);
-
-    transition:.3s;
+    box-shadow:0 8px 25px rgba(0,0,0,.10);
 
 }
+
+    
 
 .point-card:hover{
 
