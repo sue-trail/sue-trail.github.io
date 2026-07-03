@@ -960,6 +960,40 @@ footer h3{
 
 }
 
+/* ======================
+   ABOUT BACKGROUND
+====================== */
+
+.about-section{
+    position: relative;
+    background: url("../images/about-bg.jpg") center center / cover no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.about-section::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.45);
+}
+
+.about-section .container{
+    position:relative;
+    z-index:2;
+}
+
+.about-section h2{
+    color:#ffffff;
+}
+
+.about-section .section-title-en{
+    color:#eeeeee;
+}
+
+.about-section p{
+    color:#ffffff;
+}
 
 /* ======================
    END
