@@ -158,20 +158,19 @@ h2{
     height:100vh;
 
     background:
-    linear-gradient(rgba(0,0,0,.25),
-    rgba(0,0,0,.25)),
+    linear-gradient(
+        rgba(0,0,0,.20),
+        rgba(0,0,0,.20)
+    ),
     url("../images/hero.jpg")
-    center center/cover;
+    center center / cover no-repeat;
 
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
     text-align:center;
-
     color:#fff;
+}
 
 }
 
