@@ -94,29 +94,41 @@ h2{
 .header .container{
 
     display:flex;
-
     justify-content:space-between;
-
     align-items:center;
 
-    padding:15px 0;
+    max-width:1300px;
+    width:95%;
 
+    margin:auto;
+
+    padding:10px 20px;
+
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    flex-shrink:0;
 }
 
 .logo img{
+    display:block;
+    height:70px;
+    width:auto;
+    max-width:none;
+}
 
-    height:60px;
-
+.header nav{
+    flex:1;
 }
 
 .header ul{
-
     display:flex;
-
+    justify-content:flex-end;
+    align-items:center;
     list-style:none;
-
     gap:35px;
-
 }
 
 .header a{
