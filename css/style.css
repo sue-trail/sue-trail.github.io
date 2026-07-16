@@ -1199,3 +1199,71 @@ h2{
 }
 
 }
+
+/* ==========================================
+   RESULT
+========================================== */
+
+#result{
+
+    position:relative;
+
+    padding:120px 0;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.45),
+        rgba(0,0,0,.45)
+    ),
+    url("../images/result-bg.jpg")
+    center center / cover no-repeat;
+
+    background-attachment:fixed;
+
+}
+
+#result h2{
+
+    color:#fff;
+
+}
+
+#result .section-title-en{
+
+    color:#ff4444;
+
+}
+
+#result .section-lead{
+
+    color:#fff;
+
+}
+
+#result .contact-card{
+
+    max-width:900px;
+
+    margin:60px auto 0;
+
+}
+
+#result .contact-item{
+
+    background:rgba(255,255,255,.88);
+
+    backdrop-filter:blur(12px);
+
+}
+
+@media (max-width:768px){
+
+    #result{
+
+        background-attachment:scroll;
+
+        padding:90px 0;
+
+    }
+
+}
